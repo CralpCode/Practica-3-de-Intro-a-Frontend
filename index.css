@@ -52,7 +52,7 @@ nav>div>ul>li{
     margin-right: 35px;
 }
 
-.btn-primary{
+.btn-primary, .btn-sumbit{
     border: none;
     border-radius: 5px;
     color: white;
@@ -110,8 +110,8 @@ nav>div>ul>li{
 }
 
 .best-protection>img, .select-vaccines>img{    
-    width: 16px;
-    height: 16px;
+    width: 10px;
+    height: 10px;
 }
 
 .txt-principal>h1{
@@ -146,8 +146,8 @@ nav>div>ul>li{
 }
 
 .clock>img{
-    height: 16px;
-    width: 16px;
+    height: 10px;
+    width: 10px;
 }
 
 .primary-card{
@@ -165,7 +165,7 @@ nav>div>ul>li{
 
 .small-card-3{
     height: 60px;
-    width: 300px;
+    width: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -194,8 +194,8 @@ nav>div>ul>li{
 }
 
 .date>img, .location>img, .vaccine>img{
-    height: 16px;
-    width: 16px;
+    height: 10px;
+    width: 10px;
 }
 
 .sponsors{
