@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
+    background-color: white;
+    display: grid;
+    color: #6d7b93;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    font-weight: bolder;
+}
+
+nav{
+    position: absolute;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    flex-direction: row;
+    height: 90px;
+    width: 100%;
+    color: #6d7b93;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+nav>h1{
+    color: #3858d6;
+    margin-left: 90px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 90px;
+}
+
+nav>div>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav>div>ul>li{
+    margin-right: 35px;
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color:#2848c6 ;
+    height: 36px;
+    width: 114px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: row; 
+}
+
+.txt-principal{
+    margin-top: 90px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img-enfermera{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.img-enfermera>img{
+    height: 667px;
+}
+
+.small-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.small-card>p{
+    margin: 0px 0px 0px 10px;
+}
+
+.best-protection,.select-vaccines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #fff8dd;
+    border-radius: 10%;
+}
+
+.select-vaccines{
+    margin-left: 20px;
+}
+
+.best-protection>img, .select-vaccines>img{    
+    width: 16px;
+    height: 16px;
+}
+
+.txt-principal>h1{
+    font-size: 48px;
+    color: #1f3e72;
+}
+
+.txt-principal>h1,.txt-principal>p{
+    padding: 0px 50px;
+}
+
+.small-card-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 90px 50px;
+}
+
+.small-card-2>p{
+    margin: 0px 0px 0px 10px;
+
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: #dde5ff;
+    border-radius: 10%;
+}
+
+.clock>img{
+    height: 16px;
+    width: 16px;
+}
+
+.primary-card{
+    display: flex;
+    position: absolute;
+    right: 220px;
+    bottom: 30px;
+    height: 105px;
+    width: 650px;
+    background-color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+    justify-content: center;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.1);
+}
+
+.small-card-3{
+    height: 60px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-card-3>div>p{
+    margin: 0px 0px 0px 10px;
+}
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.small-card-3>h3{
+    margin: 0px 0px 0px 30px;
+}
+
+.date, .location, .vaccine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    background-color: #dde5ff;
+    border-radius: 10%;
+}
+
+.date>img, .location>img, .vaccine>img{
+    height: 16px;
+    width: 16px;
+}
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    position: relative;
+    margin: 0;
+    bottom: 0;
+}
+
+
