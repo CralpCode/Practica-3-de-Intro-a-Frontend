@@ -183,7 +183,7 @@ nav>div>ul>li{
     margin: 0px 0px 0px 30px;
 }
 
-.date, .location, .vaccine{
+.date, .location, .vaccine {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,9 +198,55 @@ nav>div>ul>li{
     width: 10px;
 }
 
-.sponsors{
+.doubts{
+    display: grid;
+    grid-column: auto;
+    padding: 0px  50px;
+    
+}
+
+.txt-answer{
+    padding: 0px 500px 0px 0px;
+}
+
+.txt-answer>h1{
+    font-weight:bolder;
+    color: #1f3e72;
+}
+
+.targets{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom:120px;
+}
+
+.small-card-4{
+    font-size: smaller;
+    height: 190px;
+    width: 170px;
+    border: solid 1px #f8f8fe; 
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.small-card-4:hover{
+    box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.1);
+}
+
+.img-card{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: #dde5ff;
+    border-radius: 10%;
+}
+
+.img-card>img{
+    height: 20px;
+    width: 20px;
 }
 
 footer{
