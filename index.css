@@ -52,7 +52,7 @@ nav>div>ul>li{
     margin-right: 35px;
 }
 
-.btn-primary, .btn-sumbit{
+.btn-primary, .btn-sumbit, .btn-call{
     border: none;
     border-radius: 5px;
     color: white;
@@ -233,7 +233,7 @@ nav>div>ul>li{
     box-shadow: 5px 5px 50px 5px rgba(0, 0, 0, 0.1);
 }
 
-.img-card, .img-card-2{
+.img-card, .img-card-2, .img-card-emg{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,7 +251,7 @@ nav>div>ul>li{
 .preparations{
     display: flex;
     flex-direction: row;
-    height: 100%;
+    margin-bottom: 100px;
 }
 
 .prep{
@@ -311,10 +311,80 @@ nav>div>ul>li{
     margin: 0;
 }
 
+.emergency{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-card-emg>h1{
+    color: #1f3e72;
+}
+
+.txt-card-emg{
+    padding: 0px 50px;
+}
+
+.targets-emg{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.img-card-emg>img{
+    height: 20px;
+    width: 20px;
+}
+
+.txt-small-card-emg{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-emg>h1{
+    font-size: medium;
+    margin: 0px 0px 0px 10px;
+    color: #3858d6;
+}
+
+.txt-emg>p{
+    margin: 8px 0px 0px 10px;
+    font-size: x-small;
+}
+
+#btn-call-emg{
+    margin-top: 20px;
+    width: 135px;
+    background-color: #dde5ff ;
+    color: #2C4CCA;
+    font-weight: bold;
+}
+
+#btn-call-emg:hover{
+    margin-top: 20px;
+    width: 135px;
+    background-color: #2C4CCA ;
+    color: white;
+    font-weight: bold;
+}
+
+.small-card-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 170px;
+    border: solid 1px #f8f8fe;
+}
+
+.small-card-6:hover{
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
 footer{
-    position: relative;
-    margin: 0;
-    bottom: 0;
+    margin-top: 60px;
+    height: 250px;
+    background-color: #eef3ff;
 }
 
 
