@@ -172,6 +172,7 @@ nav>div>ul>li{
 
 .small-card-3>div>p{
     margin: 0px 0px 0px 10px;
+    font-size: small;
 }
 
 .container-card{
@@ -181,6 +182,8 @@ nav>div>ul>li{
 
 .small-card-3>h3{
     margin: 0px 0px 0px 30px;
+    font-size: medium;
+    color: #1f3e72 ;
 }
 
 .date, .location, .vaccine {
@@ -227,6 +230,11 @@ nav>div>ul>li{
     border: solid 1px #f8f8fe; 
     padding: 20px;
     margin-right: 10px;
+}
+
+.small-card-4>h1{
+    font-size: large;
+    color: #1f3e72;
 }
 
 .small-card-4:hover{
